@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { BlocContext } from "../Context/blocContext";
-import "../style/cardStyle.css";
+import "../style/style.css";
 
 function BlocCard({ note }) {
   const { DeleteNote } = useContext(BlocContext);

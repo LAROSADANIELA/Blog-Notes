@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { BlocContext } from "../Context/blocContext";
-import "../style/formStyle.css";
+import "../style/style.css";
 
 function BlocForm() {
   const [title, setTitle] = useState("");
@@ -20,7 +20,7 @@ function BlocForm() {
   };
 
   return (
-    <section>
+    <section className="izq">
       <h1 className="form_title">Bloc Notes</h1>
       <form className="form" onSubmit={HandleSubmit}>
         <input
